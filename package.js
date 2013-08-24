@@ -11,6 +11,4 @@ Package.on_use(function(api) {
     api.add_files(['stripe_login_button.css'], 'client');
 
     api.add_files('stripe_common.js', ['client', 'server']);
-    api.add_files('stripe_server.js', 'server');
-    api.add_files('stripe_client.js', 'client');
 });
